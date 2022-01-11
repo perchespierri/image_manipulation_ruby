@@ -20,7 +20,7 @@ Formato do comando: ruby img_trans.rb exp.jpg watermark=”logo.jpg”
 3 – Logo Dark (Opcional): https://onebitcode.com/wp-content/uploads/2021/03/logodark.png
 
 # Use example:
-- ruby img_trans.rb exp.jps watermark="logo.png"
-- ruby img_trans.rb exp.jps resize="300x300"
-- ruby img_trans.rb exp.jps to_black_and_white="logo.png"
-- ruby img_trans.rb exp.jps to_black_and_white="logo.png" resize="200x200"
+- ruby img_trans.rb exp.jpg watermark="logo.png"
+- ruby img_trans.rb exp.jpg resize="300x300"
+- ruby img_trans.rb exp.jpg to_black_and_white
+- ruby img_trans.rb exp.jpg to_black_and_white resize="200x200"
